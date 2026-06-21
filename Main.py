@@ -689,6 +689,8 @@ def preroom_npcs():
         gender="male"
     ))
 
+    return npcs
+
 def preroom1_npcs():
     npcs = []
     npcs.append(RandomNPC(
